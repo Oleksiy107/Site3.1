@@ -17,7 +17,7 @@
 .nav__header {
   display: flex;
   :first-child {
-    margin: 30px;
+    padding: 30px;
   }
 }
 
@@ -25,7 +25,7 @@
   display: flex;
   align-items: center;
   :nth-child(n) {
-    margin: 30px;
+    padding: 30px;
   }
 }
 .list {
@@ -43,9 +43,6 @@
   align-content: space-between;
 }
 .nav__btn-container {
-  :first-child {
-    margin: 30px 0;
-  }
   :last-child {
     margin-right: 30px;
   }
@@ -71,10 +68,10 @@
   align-items: center;
   background-color: #e5e5e5;
   .main__box1:first-child {
-    margin: 100px 0px 90px 80px;
+    padding: 100px 0px 90px 80px;
   }
   .main__p:last-child {
-    margin: 30px 0px;
+    margin-top: 30px;
   }
   .box1__p {
     margin: 20px 0;
@@ -174,10 +171,10 @@
   grid-template-columns: 2fr 2fr;
 
   .text:nth-child(even) {
-    margin: 100px 10px 250px 120px;
+    padding: 100px 0px 250px 120px;
   }
   .text:nth-child(odd) {
-    margin: 200px 120px 250px 20px;
+    padding: 200px 120px 250px 0px;
   }
   .text {
     display: flex;
@@ -206,7 +203,7 @@
     line-height: 30px;
   }
   .img__gif:nth-child(2) {
-    margin: 120px 0;
+    padding: 120px 0;
   }
   .text__button {
     font-size: 20px;
@@ -266,7 +263,7 @@
     align-items: center;
   }
   .grid__block1:nth-child(n) {
-    margin: 65px;
+    padding: 65px;
   }
   .block1__info {
     text-align: center;
@@ -277,12 +274,12 @@
 
 .works {
   .works__title:first-child {
-    margin: 70px 0px;
+    padding: 70px 0px;
   }
   .works__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 100px 70px 200px;
+    padding: 100px 70px 160px;
   }
   .works__title {
     font-weight: 600;
@@ -421,8 +418,8 @@
   text-align: center;
   flex-direction: column;
   align-items: center;
-  :first-child {
-    margin-top: 150px;
+  :nth-child(1) {
+    padding-top: 150px;
   }
   :last-child {
     margin-bottom: 150px;
@@ -498,7 +495,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 100px 0 100px 75px;
+    padding: 100px 0 100px 75px;
     :nth-child(n) {
       margin: 10px 0;
     }
@@ -540,7 +537,7 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 100px 100px 100px 0px;
+    padding: 100px 100px 100px 0px;
   }
 }
 .footer2 {
